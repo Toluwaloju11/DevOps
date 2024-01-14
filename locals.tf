@@ -1,0 +1,4 @@
+locals {
+  company = var.company
+}
+
