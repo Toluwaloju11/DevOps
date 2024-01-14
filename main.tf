@@ -1,3 +1,8 @@
+provider "aws" {
+  region     = "eu-west-2"
+  profile = "default"
+}
+
 
 resource "aws_vpc" "cb-vpc" {
   cidr_block           = "10.0.0.0/24"
